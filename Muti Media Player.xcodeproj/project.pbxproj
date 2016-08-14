@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3204D9511D4CEA9000ED51AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204D9501D4CEA9000ED51AF /* main.m */; };
+		3204D9541D4CEA9000ED51AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204D9531D4CEA9000ED51AF /* AppDelegate.m */; };
+		3204D9571D4CEA9000ED51AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204D9561D4CEA9000ED51AF /* ViewController.m */; };
+		3204D95A1D4CEA9000ED51AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3204D9581D4CEA9000ED51AF /* Main.storyboard */; };
+		3204D95C1D4CEA9000ED51AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3204D95B1D4CEA9000ED51AF /* Assets.xcassets */; };
+		3204D95F1D4CEA9000ED51AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3204D95D1D4CEA9000ED51AF /* LaunchScreen.storyboard */; };
+		3204D96A1D4CEA9000ED51AF /* Muti_Media_PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204D9691D4CEA9000ED51AF /* Muti_Media_PlayerTests.m */; };
+		3204D9751D4CEA9000ED51AF /* Muti_Media_PlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204D9741D4CEA9000ED51AF /* Muti_Media_PlayerUITests.m */; };
+		3204D9831D4DB05600ED51AF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3204D9821D4DB05600ED51AF /* MediaPlayer.framework */; };
+		3204D9851D4DB06500ED51AF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3204D9841D4DB06500ED51AF /* AVFoundation.framework */; };
+		3204D9871D4DB07A00ED51AF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3204D9861D4DB07A00ED51AF /* CoreImage.framework */; };
+		3204D98B1D4DCA4900ED51AF /* movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 3204D9891D4DCA4900ED51AF /* movie.m4v */; };
+		3204D98C1D4DCA4900ED51AF /* norecording.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3204D98A1D4DCA4900ED51AF /* norecording.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3204D9661D4CEA9000ED51AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3204D9441D4CEA9000ED51AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3204D94B1D4CEA9000ED51AF;
+			remoteInfo = "Muti Media Player";
+		};
+		3204D9711D4CEA9000ED51AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3204D9441D4CEA9000ED51AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3204D94B1D4CEA9000ED51AF;
+			remoteInfo = "Muti Media Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3204D94C1D4CEA9000ED51AF /* Muti Media Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muti Media Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3204D9501D4CEA9000ED51AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3204D9521D4CEA9000ED51AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3204D9531D4CEA9000ED51AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3204D9551D4CEA9000ED51AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3204D9561D4CEA9000ED51AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3204D9591D4CEA9000ED51AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3204D95B1D4CEA9000ED51AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3204D95E1D4CEA9000ED51AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3204D9601D4CEA9000ED51AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3204D9651D4CEA9000ED51AF /* Muti Media PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muti Media PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3204D9691D4CEA9000ED51AF /* Muti_Media_PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Muti_Media_PlayerTests.m; sourceTree = "<group>"; };
+		3204D96B1D4CEA9000ED51AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3204D9701D4CEA9000ED51AF /* Muti Media PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Muti Media PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3204D9741D4CEA9000ED51AF /* Muti_Media_PlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Muti_Media_PlayerUITests.m; sourceTree = "<group>"; };
+		3204D9761D4CEA9000ED51AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3204D9821D4DB05600ED51AF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3204D9841D4DB06500ED51AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3204D9861D4DB07A00ED51AF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		3204D9891D4DCA4900ED51AF /* movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.m4v; sourceTree = "<group>"; };
+		3204D98A1D4DCA4900ED51AF /* norecording.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = norecording.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3204D9491D4CEA9000ED51AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3204D9871D4DB07A00ED51AF /* CoreImage.framework in Frameworks */,
+				3204D9851D4DB06500ED51AF /* AVFoundation.framework in Frameworks */,
+				3204D9831D4DB05600ED51AF /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3204D9621D4CEA9000ED51AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3204D96D1D4CEA9000ED51AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3204D9431D4CEA9000ED51AF = {
+			isa = PBXGroup;
+			children = (
+				3204D9861D4DB07A00ED51AF /* CoreImage.framework */,
+				3204D9841D4DB06500ED51AF /* AVFoundation.framework */,
+				3204D9821D4DB05600ED51AF /* MediaPlayer.framework */,
+				3204D94E1D4CEA9000ED51AF /* Muti Media Player */,
+				3204D9681D4CEA9000ED51AF /* Muti Media PlayerTests */,
+				3204D9731D4CEA9000ED51AF /* Muti Media PlayerUITests */,
+				3204D94D1D4CEA9000ED51AF /* Products */,
+				3204D9881D4DCA4900ED51AF /* Media */,
+			);
+			sourceTree = "<group>";
+		};
+		3204D94D1D4CEA9000ED51AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3204D94C1D4CEA9000ED51AF /* Muti Media Player.app */,
+				3204D9651D4CEA9000ED51AF /* Muti Media PlayerTests.xctest */,
+				3204D9701D4CEA9000ED51AF /* Muti Media PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3204D94E1D4CEA9000ED51AF /* Muti Media Player */ = {
+			isa = PBXGroup;
+			children = (
+				3204D9521D4CEA9000ED51AF /* AppDelegate.h */,
+				3204D9531D4CEA9000ED51AF /* AppDelegate.m */,
+				3204D9551D4CEA9000ED51AF /* ViewController.h */,
+				3204D9561D4CEA9000ED51AF /* ViewController.m */,
+				3204D9581D4CEA9000ED51AF /* Main.storyboard */,
+				3204D95B1D4CEA9000ED51AF /* Assets.xcassets */,
+				3204D95D1D4CEA9000ED51AF /* LaunchScreen.storyboard */,
+				3204D9601D4CEA9000ED51AF /* Info.plist */,
+				3204D94F1D4CEA9000ED51AF /* Supporting Files */,
+			);
+			path = "Muti Media Player";
+			sourceTree = "<group>";
+		};
+		3204D94F1D4CEA9000ED51AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3204D9501D4CEA9000ED51AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3204D9681D4CEA9000ED51AF /* Muti Media PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3204D9691D4CEA9000ED51AF /* Muti_Media_PlayerTests.m */,
+				3204D96B1D4CEA9000ED51AF /* Info.plist */,
+			);
+			path = "Muti Media PlayerTests";
+			sourceTree = "<group>";
+		};
+		3204D9731D4CEA9000ED51AF /* Muti Media PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3204D9741D4CEA9000ED51AF /* Muti_Media_PlayerUITests.m */,
+				3204D9761D4CEA9000ED51AF /* Info.plist */,
+			);
+			path = "Muti Media PlayerUITests";
+			sourceTree = "<group>";
+		};
+		3204D9881D4DCA4900ED51AF /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				3204D9891D4DCA4900ED51AF /* movie.m4v */,
+				3204D98A1D4DCA4900ED51AF /* norecording.wav */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3204D94B1D4CEA9000ED51AF /* Muti Media Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3204D9791D4CEA9000ED51AF /* Build configuration list for PBXNativeTarget "Muti Media Player" */;
+			buildPhases = (
+				3204D9481D4CEA9000ED51AF /* Sources */,
+				3204D9491D4CEA9000ED51AF /* Frameworks */,
+				3204D94A1D4CEA9000ED51AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muti Media Player";
+			productName = "Muti Media Player";
+			productReference = 3204D94C1D4CEA9000ED51AF /* Muti Media Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3204D9641D4CEA9000ED51AF /* Muti Media PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3204D97C1D4CEA9000ED51AF /* Build configuration list for PBXNativeTarget "Muti Media PlayerTests" */;
+			buildPhases = (
+				3204D9611D4CEA9000ED51AF /* Sources */,
+				3204D9621D4CEA9000ED51AF /* Frameworks */,
+				3204D9631D4CEA9000ED51AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3204D9671D4CEA9000ED51AF /* PBXTargetDependency */,
+			);
+			name = "Muti Media PlayerTests";
+			productName = "Muti Media PlayerTests";
+			productReference = 3204D9651D4CEA9000ED51AF /* Muti Media PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3204D96F1D4CEA9000ED51AF /* Muti Media PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3204D97F1D4CEA9000ED51AF /* Build configuration list for PBXNativeTarget "Muti Media PlayerUITests" */;
+			buildPhases = (
+				3204D96C1D4CEA9000ED51AF /* Sources */,
+				3204D96D1D4CEA9000ED51AF /* Frameworks */,
+				3204D96E1D4CEA9000ED51AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3204D9721D4CEA9000ED51AF /* PBXTargetDependency */,
+			);
+			name = "Muti Media PlayerUITests";
+			productName = "Muti Media PlayerUITests";
+			productReference = 3204D9701D4CEA9000ED51AF /* Muti Media PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3204D9441D4CEA9000ED51AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FanRui;
+				TargetAttributes = {
+					3204D94B1D4CEA9000ED51AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 623CM983Y8;
+					};
+					3204D9641D4CEA9000ED51AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 623CM983Y8;
+						TestTargetID = 3204D94B1D4CEA9000ED51AF;
+					};
+					3204D96F1D4CEA9000ED51AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 623CM983Y8;
+						TestTargetID = 3204D94B1D4CEA9000ED51AF;
+					};
+				};
+			};
+			buildConfigurationList = 3204D9471D4CEA9000ED51AF /* Build configuration list for PBXProject "Muti Media Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3204D9431D4CEA9000ED51AF;
+			productRefGroup = 3204D94D1D4CEA9000ED51AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3204D94B1D4CEA9000ED51AF /* Muti Media Player */,
+				3204D9641D4CEA9000ED51AF /* Muti Media PlayerTests */,
+				3204D96F1D4CEA9000ED51AF /* Muti Media PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3204D94A1D4CEA9000ED51AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3204D95F1D4CEA9000ED51AF /* LaunchScreen.storyboard in Resources */,
+				3204D95C1D4CEA9000ED51AF /* Assets.xcassets in Resources */,
+				3204D98C1D4DCA4900ED51AF /* norecording.wav in Resources */,
+				3204D98B1D4DCA4900ED51AF /* movie.m4v in Resources */,
+				3204D95A1D4CEA9000ED51AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3204D9631D4CEA9000ED51AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3204D96E1D4CEA9000ED51AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3204D9481D4CEA9000ED51AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3204D9571D4CEA9000ED51AF /* ViewController.m in Sources */,
+				3204D9541D4CEA9000ED51AF /* AppDelegate.m in Sources */,
+				3204D9511D4CEA9000ED51AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3204D9611D4CEA9000ED51AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3204D96A1D4CEA9000ED51AF /* Muti_Media_PlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3204D96C1D4CEA9000ED51AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3204D9751D4CEA9000ED51AF /* Muti_Media_PlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3204D9671D4CEA9000ED51AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3204D94B1D4CEA9000ED51AF /* Muti Media Player */;
+			targetProxy = 3204D9661D4CEA9000ED51AF /* PBXContainerItemProxy */;
+		};
+		3204D9721D4CEA9000ED51AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3204D94B1D4CEA9000ED51AF /* Muti Media Player */;
+			targetProxy = 3204D9711D4CEA9000ED51AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3204D9581D4CEA9000ED51AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3204D9591D4CEA9000ED51AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3204D95D1D4CEA9000ED51AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3204D95E1D4CEA9000ED51AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3204D9771D4CEA9000ED51AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3204D9781D4CEA9000ED51AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3204D97A1D4CEA9000ED51AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Muti Media Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrFine.Muti-Media-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3204D97B1D4CEA9000ED51AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Muti Media Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrFine.Muti-Media-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3204D97D1D4CEA9000ED51AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Muti Media PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrFine.Muti-Media-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muti Media Player.app/Muti Media Player";
+			};
+			name = Debug;
+		};
+		3204D97E1D4CEA9000ED51AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Muti Media PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrFine.Muti-Media-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muti Media Player.app/Muti Media Player";
+			};
+			name = Release;
+		};
+		3204D9801D4CEA9000ED51AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Muti Media PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrFine.Muti-Media-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Muti Media Player";
+			};
+			name = Debug;
+		};
+		3204D9811D4CEA9000ED51AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Muti Media PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MrFine.Muti-Media-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Muti Media Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3204D9471D4CEA9000ED51AF /* Build configuration list for PBXProject "Muti Media Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3204D9771D4CEA9000ED51AF /* Debug */,
+				3204D9781D4CEA9000ED51AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3204D9791D4CEA9000ED51AF /* Build configuration list for PBXNativeTarget "Muti Media Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3204D97A1D4CEA9000ED51AF /* Debug */,
+				3204D97B1D4CEA9000ED51AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3204D97C1D4CEA9000ED51AF /* Build configuration list for PBXNativeTarget "Muti Media PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3204D97D1D4CEA9000ED51AF /* Debug */,
+				3204D97E1D4CEA9000ED51AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3204D97F1D4CEA9000ED51AF /* Build configuration list for PBXNativeTarget "Muti Media PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3204D9801D4CEA9000ED51AF /* Debug */,
+				3204D9811D4CEA9000ED51AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3204D9441D4CEA9000ED51AF /* Project object */;
+}
